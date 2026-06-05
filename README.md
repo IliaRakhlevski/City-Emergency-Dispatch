@@ -1,5 +1,7 @@
 # City Emergency Dispatch
 
+## [Real Time College](https://rt-ed.co.il/) - a multi-disciplinary Real-Time O.S. and Embedded Software Solutions Center, providing consulting, development, integration, training and support solutions.<br/>
+
 ## Real-Time Embedded Concepts Course Project
 
 Course project developed as part of the **Real-Time Embedded Concepts** course.
