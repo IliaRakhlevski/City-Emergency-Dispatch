@@ -143,13 +143,13 @@ make
 ## Run Server
 
 ```bash
-./build/posix -server
+./build/city_emergency_dispatch -server
 ```
 
 ## Run Client
 
 ```bash
-./build/posix -client
+./build/city_emergency_dispatch -client
 ```
 
 ## Author
