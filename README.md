@@ -134,14 +134,6 @@ SQLite Update
 - Dynamic resource management
 - Runtime statistics collection
 
-## Technologies
-
-- C
-- FreeRTOS
-- POSIX
-- UDP Sockets
-- SQLite3
-
 ## Build
 
 ```bash
