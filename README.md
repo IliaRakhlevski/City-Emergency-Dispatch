@@ -12,13 +12,13 @@ The project demonstrates practical implementation of real-time operating system 
 
 ### Course Information
 
-Course: Real-Time Embedded Concepts
+**Course:** Real-Time Embedded Concepts
 
-Project: City Emergency Dispatch System
+**Project:** City Emergency Dispatch System
 
-Programming Language: C
+**Programming Language:** C
 
-Project Completion Date: 2026
+**Project Completion Date:** 2026
 
 ### Development Environment
 
