@@ -10,15 +10,6 @@ The project simulates a city-wide emergency dispatch system using FreeRTOS POSIX
 
 The project demonstrates practical implementation of real-time operating system concepts including task management, inter-task communication, synchronization mechanisms, fault recovery and resource scheduling.
 
-### Course Information
-
-**Course:** Real-Time Embedded Concepts
-
-**Project:** City Emergency Dispatch System
-
-**Programming Language:** C
-
-**Project Completion Date:** 2026
 
 ### Development Environment
 
