@@ -171,10 +171,10 @@ To stop the simulation gracefully, press `Ctrl+C` in both terminal windows.
 
 Recommended shutdown order:
 
-1. Stop the server
-2. Stop the client
+1. Stop the server to stop event generation.
+2. Stop the client to complete the shutdown.
 
-Both applications handle termination signals and print final runtime statistics before exiting. The server also closes the SQLite database and UDP socket during shutdown.
+Both applications perform resource cleanup and print final runtime statistics before exiting. The server additionally closes the SQLite database and releases database resources.
 
 ## Stress Test Results
 
