@@ -148,7 +148,7 @@ make
 
 ## Run Order
 
-The client should be started first because it opens the UDP receive socket and waits for events from the server. After the client is ready, the server can be started to begin event generation.
+The client should be started first because it creates the UDP receive socket and waits for incoming events. Once the client is ready, the server can be started to generate and transmit events.
 
 1. Start the client.
 2. Start the server.
