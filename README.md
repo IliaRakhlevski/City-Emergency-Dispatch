@@ -79,19 +79,19 @@ The application demonstrates the use of:
 
 | Task | Description |
 |--------|--------|
-| ServerEventGeneratorTask | Generates city events |
-| ServerUdpTxTask | Sends events to the client |
+| ServerEventGeneratorTask | Generates random city emergency events |
+| ServerUdpTxTask | Sends generated events to the client |
 | ServerUdpRxTask | Receives acknowledgements and completion reports |
 
 ### Client Tasks
 
 | Task | Description |
 |--------|--------|
-| ClientUdpRxTask | Receives UDP messages |
-| ClientDispatcherTask | Routes events to department queues |
-| VehicleTask | Processes assigned events |
-| ShiftManagerTask | Manages vehicle availability |
-| FaultManagerTask | Handles retries for failed events |
+| ClientUdpRxTask | Receives UDP messages from the server |
+| ClientDispatcherTask | Routes events to department priority queues |
+| VehicleTask | Represents an emergency vehicle and processes assigned events |
+| ShiftManagerTask | Monitors department workload and vehicle availability |
+| FaultManagerTask | Retries interrupted events and manages event recovery |
 
 ## Event Lifecycle
 
