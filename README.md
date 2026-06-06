@@ -136,6 +136,7 @@ Update Event Status in SQLite
 ## Build
 
 ```bash
+make clean
 make
 ```
 
