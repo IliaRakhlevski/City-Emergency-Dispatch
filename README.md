@@ -96,27 +96,29 @@ The application demonstrates the use of:
 ## Event Lifecycle
 
 ```text
-Server
-  ↓
+ServerEventGeneratorTask
+        ↓
 Generate Event
-  ↓
-SQLite
-  ↓
+        ↓
+Store Event in SQLite
+        ↓
+ServerUdpTxTask
+        ↓
 UDP
-  ↓
-Client
-  ↓
-Dispatcher
-  ↓
-Department Queue
-  ↓
-Vehicle Task
-  ↓
+        ↓
+ClientUdpRxTask
+        ↓
+ClientDispatcherTask
+        ↓
+Department Priority Queue
+        ↓
+VehicleTask
+        ↓
 Completion Report
-  ↓
-Server
-  ↓
-SQLite Update
+        ↓
+ServerUdpRxTask
+        ↓
+Update Event Status in SQLite
 ```
 
 ## Features
