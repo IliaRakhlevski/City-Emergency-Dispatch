@@ -4,9 +4,11 @@
 
 ## Real-Time Embedded Concepts Course Project
 
-Course project developed as part of the **Real-Time Embedded Concepts** course.
-
-The project demonstrates practical implementation of real-time operating system concepts including task management, inter-task communication, synchronization mechanisms, fault recovery and resource scheduling.
+Course project developed as part of the Real-Time Embedded Concepts course.
+The project simulates a city-wide emergency dispatch system where a central server generates emergency events and distributes them to specialized response departments. 
+Each emergency vehicle operates as an independent FreeRTOS task and processes events according to their priority level.
+The system demonstrates practical implementation of real-time operating system concepts including task scheduling, inter-task communication, synchronization mechanisms, 
+fault recovery, resource management and UDP-based client-server communication.
 
 
 ### Development Environment
