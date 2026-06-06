@@ -140,16 +140,21 @@ make clean
 make
 ```
 
-## Run Server
+## Run Order
 
-```bash
-./build/city_emergency_dispatch -server
-```
+1. Start the client.
+2. Start the server.
 
-## Run Client
+### Client
 
 ```bash
 ./build/city_emergency_dispatch -client
+```
+
+### Server
+
+```bash
+./build/city_emergency_dispatch -server
 ```
 
 ## Author
