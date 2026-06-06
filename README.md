@@ -17,15 +17,14 @@ Operating System
 - Ubuntu 24.04.4 LTS (Noble Numbat)
 
 Development Tools
-- Visual Studio Code
+- Visual Studio Code 1.123.0
 - GCC 13.3.0
 - GNU Make 4.3
-- Git 2.43.0
 
 Libraries and Frameworks
 - FreeRTOS POSIX
 - SQLite3 3.45.1
-- POSIX Sockets (UDP)
+- BSD/POSIX Socket API (UDP)
 
 ## Overview
 
