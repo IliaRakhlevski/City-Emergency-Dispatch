@@ -165,9 +165,14 @@ make
 
 ## Stopping the Application
 
-Press `Ctrl+C` in both terminal windows.
+To stop the simulation gracefully, press `Ctrl+C` in both terminal windows.
 
-The server and client implement signal handlers that perform a graceful shutdown, including database cleanup, socket closure and statistics reporting.
+Recommended shutdown order:
+
+1. Stop the server
+2. Stop the client
+
+Both applications handle termination signals and print final runtime statistics before exiting. The server also closes the SQLite database and UDP socket during shutdown.
 
 ## Stress Test Results
 
