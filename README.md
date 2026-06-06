@@ -50,16 +50,16 @@ The application demonstrates the use of:
 ### Server
 
 - Generates random city events
-- Stores events in SQLite
+- Stores generated events in SQLite
 - Sends events to the client via UDP
 - Receives acknowledgements and completion reports
-- Maintains runtime statistics
+- Maintains event processing statistics
 
 ### Client
 
 - Receives events from the server
 - Dispatches events according to department and priority
-- Processes events using vehicle tasks
+- Processes events using dedicated vehicle tasks
 - Manages vehicle availability through Shift Manager
 - Retries interrupted events through Fault Manager
 - Reports completion results to the server
