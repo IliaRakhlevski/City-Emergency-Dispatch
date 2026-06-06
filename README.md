@@ -163,6 +163,12 @@ make
 ./build/city_emergency_dispatch -server
 ```
 
+## Stopping the Application
+
+Press `Ctrl+C` in both terminal windows.
+
+The server and client implement signal handlers that perform a graceful shutdown, including database cleanup, socket closure and statistics reporting.
+
 ## Stress Test Results
 
 The system was stress-tested for more than 10 hours of continuous operation.
