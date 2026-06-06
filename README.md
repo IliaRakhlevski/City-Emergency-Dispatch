@@ -14,7 +14,7 @@ fault recovery, resource management and UDP-based client-server communication.
 
 Original course assignment provided by Real Time College:
 
-- [City Emergency Dispatch Simulation — Server-Client UDP Version](docs/City%20Emergency%20Dispatch%20Simulation%20%E2%80%94%20Server-Client%20UDP%20Version.docx)
+- [City Emergency Dispatch Simulation — Server-Client UDP Version](Docs/City%20Emergency%20Dispatch%20Simulation%20%E2%80%94%20Server-Client%20UDP%20Version.docx)
 
 
 ## Development Environment
