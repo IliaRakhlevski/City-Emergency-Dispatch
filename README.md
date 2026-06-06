@@ -121,16 +121,17 @@ ServerUdpRxTask
 Update Event Status in SQLite
 ```
 
-## Features
+## Key Features
 
-- FreeRTOS POSIX simulation
-- UDP client/server architecture
-- SQLite persistence
-- Priority-based scheduling
+- Priority-based event scheduling
+- Independent vehicle task execution
+- Department-specific event routing
 - Automatic retry mechanism
 - Event cancellation support
-- Dynamic resource management
+- Dynamic vehicle availability management
+- Fault recovery through Fault Manager
 - Runtime statistics collection
+- SQLite event persistence
 
 ## Build
 
