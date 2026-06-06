@@ -169,7 +169,7 @@ The system was stress-tested for more than 10 hours of continuous operation.
 
 ### Runtime Statistics
 
-![10-Hour Stress Test Results](docs/images/stress_test_10h_results.png)
+![10-Hour Stress Test Results](Docs/images/stress_test_10h_results.png)
 
 Final statistics:
 
@@ -183,7 +183,7 @@ Final statistics:
 
 ### SQLite Database Verification
 
-![Database After 10-Hour Stress Test](docs/images/database_after_10h_stress_test.png)
+![Database After 10-Hour Stress Test](Docs/images/database_after_10h_stress_test.png)
 
 The SQLite database contains all generated events and their processing status. The final pending records match the runtime statistics reported by the server and client.
 
