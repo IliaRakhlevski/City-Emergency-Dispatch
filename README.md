@@ -110,17 +110,27 @@ Store Event in SQLite
         ↓
 ServerUdpTxTask
         ↓
-UDP
+UDP Event Message
         ↓
 ClientUdpRxTask
         ↓
+Send ACK
+        ↓
+UDP ACK Message
+        ↓
+ServerUdpRxTask
+
 ClientDispatcherTask
         ↓
 Department Priority Queue
         ↓
 VehicleTask
         ↓
+Process Event
+        ↓
 Completion Report
+        ↓
+UDP Completion Message
         ↓
 ServerUdpRxTask
         ↓
