@@ -1,6 +1,6 @@
 # City Emergency Dispatch
 
-## [Real Time College](https://rt-ed.co.il/) - a multi-disciplinary Real-Time O.S. and Embedded Software Solutions Center, providing consulting, development, integration, training and support solutions.<br/>
+## [Real Time Group](https://rt-ed.co.il/) - a multi-disciplinary Real-Time O.S. and Embedded Software Solutions Center, providing consulting, development, integration, training and support solutions.<br/>
 
 The project simulates a city-wide emergency dispatch system where a central server generates emergency events and distributes them to specialized response departments. 
 Each emergency vehicle operates as an independent FreeRTOS task and processes events according to their priority level.
